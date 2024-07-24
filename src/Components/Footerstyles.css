@@ -1,20 +1,33 @@
-.Footer {
+.footertab {
     margin-bottom: 0%;
+    width: 100%;
+}
+.copyright{
+    margin-left: 0%;
 }
 
 /* Footerstyles.css */
 
 @media (max-width: 768px) {
-    .Footer {
-        flex-direction: column;
+    .footertab {
+        display: flex;
+        flex-direction: row;
         align-items: center;
         padding: 10px;
+        align-items: center;
     }
-    .Footer .my-2 {
-        margin: 5px 0;
+    .copyright{
+        align-items: center;
+        /* margin-top: 10%;
+         */
     }
-    .Footer div {
-        width: 100%;
-        text-align: center;
+    .icon{
+        width: 1%;
+        height: 1%;
     }
+    .iconbox{
+        margin-right: 1%;
+        padding-right: 1%;
+    }
+    
 }

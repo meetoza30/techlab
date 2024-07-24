@@ -13,6 +13,10 @@
   .innercontain{
     margin-top: 7%;
   }
+  .socialbtns{
+    display: flex;
+    flex-direction: row;
+  }
   .iconbox{
     margin-top: 3%;
     height: 30vh;
@@ -172,12 +176,37 @@
   }
 
   @media screen and (max-width: 768px){
-    .socials{
+    .socialbtns{
       display: flex;
       flex-direction: column;
       justify-content: center;
+      /* margin-bottom: 3%; */
+    }
+    .socials{
+      margin-top: 5%;
     }
     .amaz{
-      background-color: white;
+      /* background-color: white;
+     */
+     font-size: 70%;
     }
+    .ig{
+      margin-bottom: 5%;
+    }
+    .li{
+      margin-bottom: 5%;
+    }
+    .x{
+      margin-bottom: 5%;
+    }
+    .iconbox{
+      margin-top: 10%;
+      margin-bottom: 15%;
+      width: 80%;
+    }
+    .headstate{
+      margin-top: 5%;
+      font-size: 350%;
+    }
+    
   }

@@ -5,9 +5,11 @@
 }
 .betelement{
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+    margin-top: auto;
     background-image: linear-gradient(to right, rgb(249, 249, 4), #eaac54);
     text-decoration-style: none;
+    margin-right: 12%;
 }
 .middiv{
     margin-right: 24%;
@@ -152,35 +154,37 @@
 /* Define breakpoints */
 @media (max-width: 768px) {
   .middiv {
-      flex-direction: column;
-      align-items: center;
-  }
-  .betelement {
-      /* margin-bottom: 10px; */
-      width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin-right: 5%;
+}
+.betelement {
+      margin-left: 3%;
+      width: 35%;
       text-align: center;
+      padding-left: 1%;
+
   }
   .tlogo {
       height: 40px;
       width: 40px;
   }
-  .headcontain{
+  .headcontain {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between; /* Adjust as needed */
     align-items: center;
-    justify-items: center;
     width: 100%;
+}
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
   }
-  nav {
-      flex-direction: row;
-      padding: 10px;
-      justify-content: center;
-      align-items: center;
-  }
-  .join{
+  .join {
     width: 60%;
-    height: 4vh;
-    margin-right: 10%;
-  }
+    height: 3.5vh;
+    /* margin-right: 10%; */
+}
 }
