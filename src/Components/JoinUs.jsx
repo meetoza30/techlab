@@ -13,7 +13,7 @@ function JoinUS() {
         setIsAnimating(false);
         // Open WhatsApp link in a new tab
         window.open('https://chat.whatsapp.com/BypQCeNB9hW3NSEC01LIwl', '_blank', 'noopener,noreferrer');
-      }, 8000);
+      }, 900);
     }
   };
 
