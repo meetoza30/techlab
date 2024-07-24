@@ -14,7 +14,8 @@ function Footer(){
                 <div className="flex flex-row items-center my-2 mx-2 socials">
             <Link to="https://www.instagram.com/techlabcommunity/" className="text-white iconboxhover:text-gray-200 left-0 mx-3" target='_blank'>
                             <svg
-                                className="w-5 h-4 icon"
+                                className="w-6 h-5 icon"
+                                width="16" height="16"
                                 aria-hidden="true"
                                 // xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
