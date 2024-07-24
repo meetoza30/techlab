@@ -17,7 +17,7 @@ function Footer(){
                                 className="w-6 h-5 icon"
                                 width="16" height="16"
                                 aria-hidden="true"
-                                // xmlns="http://www.w3.org/2000/svg"
+                                xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
                                 viewBox="0 0 21 16"
                             >

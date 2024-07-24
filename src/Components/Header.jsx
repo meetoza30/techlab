@@ -8,8 +8,7 @@ function Header(){
 
     return(
         <>
-        {/* <div className="text-black font-bold size-10">Hello! Welcome</div> */}
-        {/* <img src={TechLabLogo} className=" h-20 w-20"/> */}
+       
         <nav className="items-center navbar  bg-orange-600 h-30 shadow-md shadow-yellow-600">
             <a href="/">
                 <img src={TechLabLogo} className="tlogo"/>

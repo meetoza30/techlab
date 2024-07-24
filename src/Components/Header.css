@@ -149,9 +149,7 @@
     animation-direction: normal, alternate;
   }
 
-  /* Header.css */
 
-/* Define breakpoints */
 @media (max-width: 768px) {
   .middiv {
     flex-direction: column;
