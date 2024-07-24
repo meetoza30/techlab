@@ -11,6 +11,7 @@ function RitualsPage(){
     return(
         <>
         <div className='container'>
+          <h1 className='text-2xl font-bold '>By embracing the Tech Lab Code, we create a dynamic and inclusive community where individuals can <span className='text-red-600'>thrive, learn, collaborate</span>, and ultimately shape the future of technology.</h1>
         <CCarousel controls white indicators dark >
   <CCarouselItem className='item'>
 

@@ -11,11 +11,11 @@ function Code(){
     return(<>
     
     <div className="pt-10 contain p-4">
-    <h1 className="text-center font-bold text-3xl">We embrace the power of technology and foster a community driven by the following code:
+    <h1 className="text-center font-bold heading text-3xl">We embrace the power of technology and foster a community driven by the following code:
     </h1>
-    <div className="flex justify-around pt-12">
-  <div className="bg-white rounded-xl shadow-lg overflow-hidden box border-2 border-black transform transition duration-500 hover:scale-105">
-    <div className="p-4 flex flex-col items-center">
+    <div className="flex justify-around pt-12 container">
+  <div className="bg-white rounded-xl shadow-lg overflow-hidden box border-2 whitecontain border-black transform transition duration-500 hover:scale-105">
+    <div className="p-4 flex flex-col items-center sm:flex sm:flex-col ">
       <img src={explore} alt="Explore" className="w-24 h-24 object-cover mb-4" />
       <h2 className="inline-block font-bold text-white bg-red-600 px-3 py-1 rounded-full mb-2">Explore</h2>
       <p className="text-gray-700 text-sm text-center bg-orange-300 p-3 rounded-xl font-semibold">
@@ -46,7 +46,7 @@ function Code(){
   </div>
   </div>
 
-  <div className="flex justify-around pt-12 pb-10">
+  <div className="flex justify-around pt-12 pb-10 container">
   <div className="bg-white rounded-xl shadow-lg overflow-hidden box border-2 border-black transform transition duration-500 hover:scale-105">
     <div className="p-4 flex flex-col items-center">
       <img src={empower} alt="Explore" className="w-24 h-24 object-cover mb-4" />

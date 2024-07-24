@@ -146,3 +146,34 @@
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
   }
+
+  /* Header.css */
+
+/* Define breakpoints */
+@media (max-width: 768px) {
+  .middiv {
+      flex-direction: column;
+      align-items: center;
+  }
+  .betelement {
+      /* margin-bottom: 10px; */
+      width: 50%;
+      text-align: center;
+  }
+  .tlogo {
+      height: 40px;
+      width: 40px;
+  }
+  .headcontain{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+  }
+  nav {
+      flex-direction: row;
+      /* padding: 10px; */
+  }
+}

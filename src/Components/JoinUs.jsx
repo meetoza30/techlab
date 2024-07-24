@@ -55,7 +55,7 @@ function JoinUS() {
                             <span className="font-semibold text-2xl">Instagram</span>
                         </Link>
 
-        <Link to="https://www.instagram.com/techlabcommunity/" className="text-white flex  flex-row hvr-forward items-center justify-center x bg-gray-600 px-3 py-1 rounded-lg otherbtns  hover:text-gray-200  left-0 mx-3" target='_blank' >
+        <Link to="https://x.com/TechLabSocials" className="text-white flex  flex-row hvr-forward items-center justify-center x bg-gray-600 px-3 py-1 rounded-lg otherbtns  hover:text-gray-200  left-0 mx-3" target='_blank' >
                             <svg
                                 className="w-10 h-10"
                                 aria-hidden="true"
@@ -69,7 +69,7 @@ function JoinUS() {
                         </Link>
                         
 
-        <Link to="https://www.instagram.com/techlabcommunity/" className="text-white flex hvr-forward flex-row items-center justify-center li bg-blue-600 px-3 py-1 rounded-lg otherbtns  hover:text-gray-200  left-0 mx-3" target='_blank' >
+        <Link to="https://www.linkedin.com/company/techlabsocials/" className="text-white flex hvr-forward flex-row items-center justify-center li bg-blue-600 px-3 py-1 rounded-lg otherbtns  hover:text-gray-200  left-0 mx-3" target='_blank' >
                             <svg
                                 className="w-10 h-10"
                                 aria-hidden="true"

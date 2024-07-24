@@ -14,8 +14,9 @@
     margin-top: 7%;
   }
   .iconbox{
+    margin-top: 3%;
     height: 30vh;
-  }
+    box-shadow: 0 2px 25px rgba(0, 255, 94, 0.5);  }
   .ig{
     
         background: #f09433; 

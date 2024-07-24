@@ -10,7 +10,7 @@
   border-radius: 100px;
 }
 .box{
-  width: 15%;
+  width: 25%;
 }
   .card{
     height: 30%;
@@ -33,20 +33,22 @@
     font-weight: 600;
   }
 
-  @media (min-width: 640px) {
-    .max-w-sm {
-      max-width: 24rem;
+ 
+  
+  @media screen and (max-width: 768px) {
+    .heading{
+      font-size: medium;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .box{
+      width: 100%;
+      margin-top: 8%;
     }
   }
   
-  @media (min-width: 768px) {
-    .max-w-sm {
-      max-width: 28rem;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .max-w-sm {
-      max-width: 32rem;
-    }
-  }

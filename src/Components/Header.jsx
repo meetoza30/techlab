@@ -10,7 +10,7 @@ function Header(){
         <>
         {/* <div className="text-black font-bold size-10">Hello! Welcome</div> */}
         {/* <img src={TechLabLogo} className=" h-20 w-20"/> */}
-        <nav className="flex flex-row items-center justify-around bg-orange-600 max-w-screen h-30 shadow-md shadow-yellow-600">
+        <nav className="flex flex-row items-center justify-around bg-orange-600 headcontain max-w-screen h-30 shadow-md shadow-yellow-600">
             <a href="/">
                 <img src={TechLabLogo} className="tlogo"/>
             </a>
