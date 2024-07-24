@@ -72,8 +72,8 @@
     display: inline-block;
     font-size: 1em;
     padding: 1em 2em;
-    margin-top: 100px;
-    margin-bottom: 60px;
+    margin-top: 8%;
+    /* margin-bottom: 60px; */
     -webkit-appearance: none;
     appearance: none;
     background-color: #00ff4c;
@@ -205,6 +205,13 @@
     .headstate{
       margin-top: 5%;
       font-size: 350%;
+    }
+    .bubbly-button{
+      margin-top: 2%;
+    }
+    .whatslogo{
+      width: 30%;
+      height: 20%;
     }
     
   }

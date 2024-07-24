@@ -5,6 +5,10 @@
 .copyright{
     margin-left: 0%;
 }
+.icon{
+    width: 20%;
+    height: 20%;
+}
 
 
 @media (max-width: 768px) {
@@ -23,12 +27,16 @@
          */
     }
     .icon{
-        width: 1%;
-        height: 1%;
+        width: 2%;
+        height: 2%;
     }
     .iconbox{
         margin-right: 1%;
         padding-right: 1%;
+    }
+    .res{
+        font-size: 75%;
+        /* margin-left: 9%; */
     }
     
 }

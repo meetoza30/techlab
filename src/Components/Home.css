@@ -108,5 +108,9 @@
     }
     .subhead{
       font-size: xx-large;
+      padding: 5%;
+    }
+    .head{
+      font-size: 100%;
     }
   }
