@@ -170,3 +170,14 @@
       background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
     }
   }
+
+  @media screen and (max-width: 768px){
+    .socials{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .amaz{
+      background-color: white;
+    }
+  }

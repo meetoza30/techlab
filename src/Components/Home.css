@@ -89,3 +89,24 @@
     opacity: 100%;
     /* backdrop-filter: blur(1px); */
   }
+
+  @media screen and (max-width: 768px){
+    .intro{
+      width: 90%;
+      /* height: 15vh; */
+      font-size: medium;
+      font-weight: bolder;
+    }
+    .contain{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .welcome{
+      font-size: xxxx-large;
+    }
+    .subhead{
+      font-size: xx-large;
+    }
+  }

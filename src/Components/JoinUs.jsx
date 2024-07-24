@@ -21,7 +21,7 @@ function JoinUS() {
 
     <div className="flex contain items-center justify-center min-h-screen flex-col">
     <div className="flex flex-col items-center justify-center innercontain my-auto">
-      <h1 className="font-bold mb-4 text-black text-5xl">Join Our <span className="bg-black px-3 py-1 text-orange-400 text-5xl font-bold">Amazing Community</span></h1>
+      <h1 className="font-bold mb-4 text-black text-5xl">Join Our <span className="bg-black px-3 py-1 text-orange-400 text-5xl font-bold amaz">Amazing Community</span></h1>
       <div className="bg-white p-8 iconbox rounded-lg shadow-md text-center items-center justify-center text-wrap">
         <p className="text-black font-semibold font-serif text-3xl">Become a part of this & you won't regret.</p>
         <button 
@@ -37,11 +37,11 @@ function JoinUS() {
         </button>
       </div>
     </div>
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center socials">
         <div className="">
         <h1 className="font-bold text-3xl bg-orange-400 px-4 py-2 rounded-lg">Follow us here - </h1>
         </div>
-        <div className="flex flex-row mt-10 mb-10">
+        <div className="flex flex-row mt-10 mb-10 socials">
         <Link to="https://www.instagram.com/techlabcommunity/" className="text-white flex hvr-forward flex-row items-center justify-center ig bg-pink-500 px-3 py-1 rounded-lg otherbtns  hover:text-gray-200  left-0 mx-3" target='_blank' >
                             <svg
                                 className="w-10 h-10"

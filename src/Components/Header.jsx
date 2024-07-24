@@ -22,8 +22,8 @@ function Header(){
             
             </div>
 
-            <div className="flex flex-row left-0">
-            <Link style={{ textDecoration: 'none' }} to="join_us" className="mx-3 bg-yellow-200 rounded-md px-2 py-1 text-black font-semibold hover:bg-yellow-700  betelement hvr-icon-bob hvr-icon">Join Us <span>&#8594;</span></Link>
+            <div className="left-0">
+            <Link style={{ textDecoration: 'none' }} to="join_us" className="mx-3 bg-yellow-200 rounded-md px-2 py-1 text-black font-semibold hover:bg-yellow-700  join betelement hvr-icon-bob hvr-icon">Join<span>&#8594;</span></Link>
             </div>
             
         </nav>
